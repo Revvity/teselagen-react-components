@@ -1533,10 +1533,13 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@teselagen/bounce-loader@^0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@teselagen/bounce-loader/-/bounce-loader-0.0.6.tgz#ace027cc51bd1b4ff2f7fab18743b81be8993e86"
-  integrity sha512-29C1yOGWMyw+THdd/zzVlR/il5pXlAHw6XUWw9x6t8WS0TQay8gEE8YSFwjIFHdbmLRtAU36EKtwnl+Yi2vHKA==
+"@teselagen/bounce-loader@^0.3.15":
+  version "0.3.15"
+  resolved "https://registry.yarnpkg.com/@teselagen/bounce-loader/-/bounce-loader-0.3.15.tgz#cb9641ad2e6139c3021add9d51fec2e5342c998b"
+  integrity sha512-2icR/LAIJtHAtrWb0pkbnoIAnkjBC9W6gLLlOzjraR4iSWJAKSTQuLO2hpFiXOYsInLaGeJYZLWL03qS6ZSKMA==
+  dependencies:
+    classnames "^2.3.2"
+    react "^18.3.1"
 
 "@teselagen/file-utils@^0.2.15":
   version "0.2.15"
@@ -3169,6 +3172,11 @@ class-utils@^0.3.5:
 classnames@^2.2, classnames@^2.2.5, classnames@^2.2.6:
   version "2.2.6"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.6.tgz#43935bffdd291f326dad0a205309b38d00f650ce"
+
+classnames@^2.3.2:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.5.1.tgz#ba774c614be0f016da105c858e7159eae8e7687b"
+  integrity sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow==
 
 clean-css@^4.2.3:
   version "4.2.3"
@@ -9495,6 +9503,13 @@ react@^17.0.2:
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
+
+react@^18.3.1:
+  version "18.3.1"
+  resolved "https://registry.yarnpkg.com/react/-/react-18.3.1.tgz#49ab892009c53933625bd16b2533fc754cab2891"
+  integrity sha512-wS+hAgJShR0KhEvPJArfuPVN1+Hz1t0Y6n5jLrGQbkb4urgPE/0Rve+1kMB1v/oWgHgm4WIcV+i7F2pTVj+2iQ==
+  dependencies:
+    loose-envify "^1.1.0"
 
 reactcss@^1.2.0:
   version "1.2.3"
